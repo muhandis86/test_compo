@@ -1,0 +1,193 @@
+footer {
+    padding: 48px 0;
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+
+        font-family: 'Gotham';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 125%;
+        color: #071435;
+
+        &__support {
+            display: flex;
+            align-items: center;
+            gap: 48px;
+
+            &_logo {
+                width: 205px;
+                height: 40px;
+                flex-shrink: 0;
+                margin-right: 8px;
+            }
+
+            &_phone,
+            &_email {
+                height: 43px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .text {
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 133%;
+                color: #77829e;
+            }
+        }
+
+        &__navigate {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: #071435;
+            }
+
+            button {
+                border-radius: 8px;
+                padding: 12px 24px;
+                width: 179px;
+                height: 48px;
+                background: #f2f6ff;
+                border: none;
+                cursor: pointer;
+                white-space: nowrap;
+                font-family: 'Gotham';
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 114%;
+                text-align: center;
+                color: #1551e5;
+            }
+        }
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+            font-family: 'Gotham';
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #050d23;
+            margin-bottom: 24px;
+        }
+
+        ul {
+            li {
+                list-style: none;
+                font-family: 'Gotham';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 114%;
+                margin-bottom: 16px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #050d23;
+                }
+            }
+        }
+    }
+
+    .bottom {
+
+        &__links {
+            display: flex;
+            justify-content: center;
+            gap: 28px;
+
+            &_item {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                .icon_file {
+                    background-image: url('../../img/file.png');
+                    background-size: contain;
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .icon_video {
+                    background-image: url('../../img/video.png');
+                    background-size: contain;
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .icon_info {
+                    background-image: url('../../img/info.png');
+                    background-size: contain;
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .icon_youtube {
+                    background-image: url('../../img/youtube.png');
+                    background-size: contain;
+                    width: 16px;
+                    height: 16px;
+                }
+
+                .text {
+                    font-weight: 500;
+                    font-size: 12px;
+                    // line-height: 133%;
+                    color: #828ead;
+                    text-decoration: none;
+
+                    &.blue {
+                        color: #1551e5;
+                    }
+                }
+
+            }
+        }
+
+        &__police {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 133%;
+            text-align: center;
+            color: #828ead;
+            margin: 40px 0;
+        }
+
+        &__platform {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+
+            &_logo {
+                width: 123px;
+                height: 24px;
+            }
+
+            &_text {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 114%;
+                color: #8f9bb3;
+                text-decoration: none;
+            }
+        }
+    }
+
+
+
+}

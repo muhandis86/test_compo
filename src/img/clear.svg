@@ -1,0 +1,27 @@
+<svg width="32.000000" height="32.000000" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_8_7353_dd" x="0.000000" y="0.000000" width="32.000000" height="32.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<rect id="\Icon" width="24.000000" height="24.000000" transform="translate(4.000000 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<mask id="mask8_7352" mask-type="alpha" maskUnits="userSpaceOnUse" x="4.000000" y="0.000000" width="24.000000" height="24.000000">
+		<path id="Mask" d="M17.41 12L21.7 7.7C22.09 7.31 22.09 6.68 21.7 6.29C21.31 5.9 20.68 5.9 20.29 6.29L16 10.58L11.7 6.29C11.31 5.9 10.68 5.9 10.29 6.29C9.9 6.68 9.9 7.31 10.29 7.7L14.58 12L10.29 16.29C9.9 16.68 9.9 17.31 10.29 17.7C10.48 17.9 10.74 18 11 18C11.25 18 11.51 17.9 11.7 17.7L16 13.41L20.29 17.7C20.48 17.9 20.74 18 21 18C21.25 18 21.51 17.9 21.7 17.7C22.09 17.31 22.09 16.68 21.7 16.29L17.41 12Z" fill="#071435" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</mask>
+	<g mask="url(#mask8_7352)">
+		<rect id="Black" width="24.000000" height="24.000000" transform="translate(4.000000 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g filter="url(#filter_8_7353_dd)">
+			<rect id="Danger" width="24.000000" height="24.000000" transform="translate(4.000000 0.000000)" fill="#050D23" fill-opacity="1.000000"/>
+		</g>
+	</g>
+</svg>
